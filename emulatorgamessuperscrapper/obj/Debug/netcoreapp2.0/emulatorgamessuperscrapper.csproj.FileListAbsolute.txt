@@ -1,0 +1,10 @@
+C:\Users\alien\source\repos\emulatorgamessuperscrapper\emulatorgamessuperscrapper\bin\Debug\netcoreapp2.0\emulatorgamessuperscrapper.deps.json
+C:\Users\alien\source\repos\emulatorgamessuperscrapper\emulatorgamessuperscrapper\bin\Debug\netcoreapp2.0\emulatorgamessuperscrapper.runtimeconfig.json
+C:\Users\alien\source\repos\emulatorgamessuperscrapper\emulatorgamessuperscrapper\bin\Debug\netcoreapp2.0\emulatorgamessuperscrapper.runtimeconfig.dev.json
+C:\Users\alien\source\repos\emulatorgamessuperscrapper\emulatorgamessuperscrapper\bin\Debug\netcoreapp2.0\emulatorgamessuperscrapper.dll
+C:\Users\alien\source\repos\emulatorgamessuperscrapper\emulatorgamessuperscrapper\bin\Debug\netcoreapp2.0\emulatorgamessuperscrapper.pdb
+C:\Users\alien\source\repos\emulatorgamessuperscrapper\emulatorgamessuperscrapper\obj\Debug\netcoreapp2.0\emulatorgamessuperscrapper.csproj.CoreCompileInputs.cache
+C:\Users\alien\source\repos\emulatorgamessuperscrapper\emulatorgamessuperscrapper\obj\Debug\netcoreapp2.0\emulatorgamessuperscrapper.AssemblyInfoInputs.cache
+C:\Users\alien\source\repos\emulatorgamessuperscrapper\emulatorgamessuperscrapper\obj\Debug\netcoreapp2.0\emulatorgamessuperscrapper.AssemblyInfo.cs
+C:\Users\alien\source\repos\emulatorgamessuperscrapper\emulatorgamessuperscrapper\obj\Debug\netcoreapp2.0\emulatorgamessuperscrapper.dll
+C:\Users\alien\source\repos\emulatorgamessuperscrapper\emulatorgamessuperscrapper\obj\Debug\netcoreapp2.0\emulatorgamessuperscrapper.pdb
