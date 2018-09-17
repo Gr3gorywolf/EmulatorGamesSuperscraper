@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 
 namespace emulatorgamessuperscrapper
 {
-    class superscrapper
+    class superscraper
     {
         private string desencriptar(string innertext)
         {

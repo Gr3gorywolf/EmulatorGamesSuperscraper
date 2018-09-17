@@ -14,7 +14,7 @@ namespace emulatorgamessuperscrapper
 {
     class Program
     {
-        static superscrapper escrapeador = new superscrapper();
+        static superscraper escrapeador = new superscraper();
         static int numeroconsola = 0;
         static int paginas = 0;
         static bool hd = false;

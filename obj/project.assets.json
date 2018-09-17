@@ -3958,9 +3958,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alien\\source\\repos\\emulatorgamessuperscrapper\\emulatorgamessuperscrapper\\emulatorgamessuperscrapper.csproj",
-      "projectName": "emulatorgamessuperscrapper",
-      "projectPath": "C:\\Users\\alien\\source\\repos\\emulatorgamessuperscrapper\\emulatorgamessuperscrapper\\emulatorgamessuperscrapper.csproj",
+      "projectUniqueName": "C:\\Users\\alien\\source\\repos\\emulatorgamessuperscrapper\\emulatorgamessuperscrapper\\emulatorgamessuperscraper.csproj",
+      "projectName": "emulatorgamessuperscraper",
+      "projectPath": "C:\\Users\\alien\\source\\repos\\emulatorgamessuperscrapper\\emulatorgamessuperscrapper\\emulatorgamessuperscraper.csproj",
       "packagesPath": "C:\\Users\\alien\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\alien\\source\\repos\\emulatorgamessuperscrapper\\emulatorgamessuperscrapper\\obj\\",
       "projectStyle": "PackageReference",
