@@ -86,7 +86,8 @@ namespace emulatorgamessuperscrapper
                 Console.ReadKey();
                 getinfomenu();
             }
-            else {
+            else
+            {
                 Console.Clear();
                 Console.WriteLine("Extrayendo informacion...");
                 /////el getrominfo.result devuelve un objeto de la clase models.rominfo 
@@ -116,14 +117,14 @@ namespace emulatorgamessuperscrapper
 
             Console.Clear();
 
-            maximos.Add(0, 15);
-            maximos.Add(1, 12);
-            maximos.Add(2, 3);
-            maximos.Add(3, 16);
-            maximos.Add(4, 2);
-            maximos.Add(5, 6);
-            maximos.Add(6, 11);
-            maximos.Add(7, 6);
+            maximos.Add(0, 25);
+            maximos.Add(1, 32);
+            maximos.Add(2, 5);
+            maximos.Add(3, 31);
+            maximos.Add(4, 78);
+            maximos.Add(5, 11);
+            maximos.Add(6, 19);
+            maximos.Add(7, 13);
 
             if (scrapper) { }
             Console.WriteLine("Seleccione la consola para extraer informacion de los roms");
@@ -206,10 +207,26 @@ namespace emulatorgamessuperscrapper
             //     var vista = escrapeador.getrominfo(resultados[56].link).Result;
             //   var link= escrapeador.getdownloadlink(vista.id).Result;
             //// ese mismo objeto es convertido a string con el serializer de newtonsoft.json
-            string json = JsonConvert.SerializeObject(resultados);
+             string json = JsonConvert.SerializeObject(resultados);
 
-            ///escribe el archivo .json justo en la raiz de donde se ejecuta el programa
-            System.IO.File.WriteAllText(consolenames[numeroconsola] + ".json", json);
+              ///escribe el archivo .json justo en la raiz de donde se ejecuta el programa
+              System.IO.File.WriteAllText(consolenames[numeroconsola] + ".json", json);
+
+          /*  var escritor = File.CreateText("dumps/"+consolenames[numeroconsola]+".gr3dump");
+            //  string completitaxd = "";
+            List<string> nombreses = new List<string>();
+            List<string> linkeses = new List<string>();
+            List<string> portadases = new List<string>();
+            List<string> descargases = new List<string>();
+            foreach (var item in resultados)
+            {
+                nombreses.Add(item.nombre);
+                linkeses.Add(item.link);
+                portadases.Add(item.imagen);
+                descargases.Add(item.descargas);
+            }
+            escritor.Write(string.Join("****", nombreses) + "+++++" + string.Join("****", linkeses) + "+++++" + string.Join("****", portadases) + "+++++" + string.Join("****", descargases));
+            escritor.Close();*/
             Console.Clear();
             Console.WriteLine("informacion extraida correctamente en el archivo " + consolenames[numeroconsola] + ".json" + " que esta en la carpeta raiz de el launcher");
            

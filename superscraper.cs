@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using HtmlAgilityPack;
 using Newtonsoft.Json;
-
+using System.Linq;
 namespace emulatorgamessuperscrapper
 {
     class superscraper
@@ -17,12 +17,21 @@ namespace emulatorgamessuperscrapper
             ////////////////esto se encarga de extraer la info de la rom la cual es una cadena con el siguiente formato
             /////////ROMInformationFile Name:Pokemon - Ruby Version (V1.1)File Size:4.7MBRegion:USAConsole:Gameboy AdvanceDownloads:81,353
             ////////por esa razon es que se reemplazan esos valores por un separador para asi poder splitearlo y sacarlos mas facilmente
+               if (innertext.Contains("File Size:")) { 
             return innertext.Replace("ROMInformation", "")
                 .Replace("File Name:", "")
                 .Replace("File Size:", "^^^???**//")
                 .Replace("Region:", "^^^???**//")
                 .Replace("Console:", "^^^???**//")
                 .Replace("Downloads:", "^^^???**//");
+            }
+            else { 
+                 return innertext.Replace("ROMInformation", "")
+                .Replace("File Name:", "")
+                .Replace("Region:", "^^^???**//0MB^^^???**//")
+                .Replace("Console:", "^^^???**//")
+                .Replace("Downloads:", "^^^???**//");
+                }
 
         }
 
@@ -82,9 +91,12 @@ namespace emulatorgamessuperscrapper
             if (!htmlDoc2.Text.Contains("404 Page Not Found"))
             {
                 //////////////se selecciona el 2do div de la pagina 
+
+               
                 var nodelo = htmlDoc2.DocumentNode.SelectNodes("//div")[1];
+                var klowa = nodelo.SelectNodes("//*[contains(@class,'table table-striped rom-info')]").Where(aaxx => aaxx.Name == "table").First().ChildNodes.Where(aaxx=>aaxx.Name=="tbody").First();
                 ////////////dentro de este se obtiene un inner text de una tabla que hay dentro de ese div el cual contiene la info de el rom
-                var listaelementos = desencriptar(nodelo.ChildNodes[2].ChildNodes[1].InnerText).Split(new[] { "^^^???**//" }, StringSplitOptions.None);
+                var listaelementos = desencriptar(klowa.InnerText).Split(new[] { "^^^???**//" }, StringSplitOptions.None);
                 Models.rominfo info = new Models.rominfo();
                 /////////////////////////////se busca directamente el elemento rom-link por su ide y se le agregan un par de cosas para hacerlo spliteable
                 info.linkdescarga = htmlDoc2.GetElementbyId("rom-link").Attributes["href"].Value.Replace("&amp;", "").Replace("&", "").Replace("token=", "&token=").Replace("id=", "&id=").Replace("name=", "&name=");
@@ -97,7 +109,10 @@ namespace emulatorgamessuperscrapper
                 info.region = listaelementos[2];
                 info.consola = listaelementos[3];
                 /////////////////////////se busca entre hijos la imagen y luego se ele extrae su href
-                info.imagen = nodelo.ChildNodes[2].ChildNodes[0].ChildNodes[1].ChildNodes[0].ChildNodes[0].ChildNodes[0].Attributes["src"].Value;
+                var imagen = nodelo.SelectNodes("//*[contains(@class,'product__img')]").Where(aaxx=>aaxx.Name=="img");
+         
+               
+                info.imagen = imagen.First().Attributes["src"].Value;
                 ////////////////////aqui se le extrae el info de descargas y votos si estos son existentes por eso estan dentro de un try catch
                 try
                 {
