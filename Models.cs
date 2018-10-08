@@ -24,6 +24,14 @@ namespace emulatorgamessuperscrapper
             public string size { get; set; }
 
         }
+        public class emuladores
+        {
+
+            public string nombre { get; set; }
+            public string imagen { get; set; }
+            public string link { get; set; }
+            public string compactible { get; set; }
+        }
 
 
     }

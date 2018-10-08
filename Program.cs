@@ -19,9 +19,9 @@ namespace emulatorgamessuperscrapper
         static int paginas = 0;
         static bool hd = false;
         static bool scrapper = false;
-        static string[] consolenames = { "gameboy-advance", "super-nintendo", "nintendo-64", "nintendo", "playstation", "gameboy-color", "sega-genesis", "gameboy" };
+        static string[] consolenames = { "gameboy-advance", "super-nintendo", "nintendo-64", "nintendo", "playstation", "gameboy-color", "sega-genesis", "gameboy", "dreamcast" };
      static  Dictionary<int, int> maximos = new Dictionary<int, int>();
-
+        static Dictionary<string, List<Models.emuladores>> diccioemuladores = new Dictionary<string, List<Models.emuladores>>();
         static void Main(string[] args)
         {
             // se le aplica la validacion falsa de certificados a la seguridad utilizada en la libreria system.net
@@ -32,12 +32,13 @@ namespace emulatorgamessuperscrapper
             Console.WriteLine("Por favor seleccione lo que dese hacer");
             Console.WriteLine("1-Extraer info de rom");
             Console.WriteLine("2-Obtener info de roms");
+            Console.WriteLine("3-gestionar emuladores");
             var seleccion = 0;
             try
             {
 
                seleccion = int.Parse(Console.ReadLine().Trim());
-                if (seleccion > 2 || seleccion < 1)
+                if (seleccion > 3 || seleccion < 1)
                     throw new Exception();
             }
             catch (Exception)
@@ -51,7 +52,11 @@ namespace emulatorgamessuperscrapper
             if (seleccion == 2)
                 scrappearmenu();
             else
+             if (seleccion == 1)
                 getinfomenu();
+            else
+             if (seleccion == 3)
+                gestionemuls();
 
             //////////////////////ignorar!! 
             /*  var escritor = File.CreateText("gba.gr3dump");
@@ -103,6 +108,134 @@ namespace emulatorgamessuperscrapper
             }
 
         }
+        public  static void gestionemuls() {
+            if (File.Exists("emulators.json"))
+            {
+              
+                    diccioemuladores = JsonConvert.DeserializeObject<Dictionary<string, List<Models.emuladores>>>(File.ReadAllText("emulators.json"));
+              
+            }
+            Console.Clear();
+            Console.WriteLine("Seleccione la consola para agregarle un emulador");
+            Console.WriteLine("0-gameboy-advance");
+            Console.WriteLine("1-super-nintendo");
+            Console.WriteLine("2-nintendo-64");
+            Console.WriteLine("3-nintendo");
+            Console.WriteLine("4-playstation");
+            Console.WriteLine("5-gameboy color");
+            Console.WriteLine("6-Sega genesis");
+            Console.WriteLine("7-Gameboy");
+            Console.WriteLine("8-Sega Dreamcast");
+            try
+            {
+
+                numeroconsola = int.Parse(Console.ReadLine().Trim());
+                if (numeroconsola > 8 || numeroconsola < 0)
+                    throw new Exception();
+            }
+            catch (Exception)
+            {
+                Console.Clear();
+
+                Console.WriteLine("seleccion invalida por favor entre una valida");
+                Console.ReadKey();
+                gestionemuls();
+            }
+            bool notienekey = false;
+            List<Models.emuladores> listaseleccion = new List<Models.emuladores>();
+            if (diccioemuladores.ContainsKey(consolenames[numeroconsola]))
+                listaseleccion = diccioemuladores[consolenames[numeroconsola]];
+            else
+                notienekey = true;
+
+            Console.WriteLine("----------Emuladores para esta consola------------");
+            foreach (var aax in listaseleccion)
+            {
+                Console.WriteLine(aax.nombre);
+            }
+            Console.WriteLine("--------------------------------------------------");
+            Console.WriteLine("Desea agregar un nuevo emulador?");
+            Console.WriteLine("1-Si");
+            Console.WriteLine("2-No");
+            var seleccion = 0;
+            try
+            {
+
+               seleccion = int.Parse(Console.ReadLine().Trim());
+                if (seleccion >2 || seleccion < 1)
+                    throw new Exception();
+            }
+            catch (Exception)
+            {
+                Console.Clear();
+
+                Console.WriteLine("seleccion invalida por favor entre una valida");
+                Console.ReadKey();
+                gestionemuls();
+            }
+            if (seleccion == 1)
+
+            {
+
+
+                var elem = new Models.emuladores();
+                Console.Clear();
+                Console.WriteLine("Copie el nombre de el emulador y pulse enter");
+                Console.ReadKey();
+               elem.nombre= Clipboard.GetText();
+                Console.WriteLine("Copie el link de el emulador y pulse enter");
+                Console.ReadKey();
+                elem.link= Clipboard.GetText();
+                Console.WriteLine("Copie el link de la imagen de el emulador y pulse enter");
+                Console.ReadKey();
+                elem.imagen = Clipboard.GetText();
+                Console.WriteLine("es actualmente compactible con neonrom3r?");
+                Console.WriteLine("1-si");
+                Console.WriteLine("2-no");
+                var seleccion2 = 0;
+                try
+                {
+
+                    seleccion2 = int.Parse(Console.ReadLine().Trim());
+                    if (seleccion2 > 2 || seleccion2 < 1)
+                        throw new Exception();
+                }
+                catch (Exception)
+                {
+                    Console.Clear();
+
+                    Console.WriteLine("seleccion invalida por favor entre una valida");
+                    Console.ReadKey();
+                    gestionemuls();
+                }
+                if (seleccion2 == 1)
+                    elem.compactible = "Compatible";
+                else
+                    elem.compactible = "No compatible";
+
+                listaseleccion.Add(elem);
+                if (notienekey)
+                    diccioemuladores.Add(consolenames[numeroconsola], listaseleccion);
+                else
+                    diccioemuladores[consolenames[numeroconsola]] = listaseleccion;
+
+                var arch = File.CreateText("emulators.json");
+                arch.Write(JsonConvert.SerializeObject (diccioemuladores));
+                arch.Close();
+                gestionemuls();
+
+
+
+
+            }
+           
+
+
+
+
+
+        }
+
         public static void scrappearmenu() {
             /////////////////////lista de nombres de consolas
             ////////////0-gameboy-advance
@@ -117,15 +250,15 @@ namespace emulatorgamessuperscrapper
 
             Console.Clear();
 
-            maximos.Add(0, 25);
-            maximos.Add(1, 32);
-            maximos.Add(2, 5);
-            maximos.Add(3, 31);
-            maximos.Add(4, 78);
-            maximos.Add(5, 11);
-            maximos.Add(6, 19);
-            maximos.Add(7, 13);
-
+            maximos.Add(0, 15);
+            maximos.Add(1, 12);
+            maximos.Add(2, 3);
+            maximos.Add(3, 18);
+            maximos.Add(4, 2);
+            maximos.Add(5, 6);
+            maximos.Add(6, 11);
+            maximos.Add(7, 6);
+            maximos.Add(8, 1);
             if (scrapper) { }
             Console.WriteLine("Seleccione la consola para extraer informacion de los roms");
             Console.WriteLine("0-gameboy-advance");
@@ -135,12 +268,13 @@ namespace emulatorgamessuperscrapper
             Console.WriteLine("4-playstation");
             Console.WriteLine("5-gameboy color");
             Console.WriteLine("6-Sega genesis");
-            Console.WriteLine("7-gameboy");
+            Console.WriteLine("7-Gameboy");
+            Console.WriteLine("8-Sega Dreamcast");
             try
             {
 
                 numeroconsola = int.Parse(Console.ReadLine().Trim());
-                if (numeroconsola > 7 || numeroconsola < 0)
+                if (numeroconsola > 8 || numeroconsola < 0)
                     throw new Exception();
             }
             catch (Exception)
@@ -207,29 +341,52 @@ namespace emulatorgamessuperscrapper
             //     var vista = escrapeador.getrominfo(resultados[56].link).Result;
             //   var link= escrapeador.getdownloadlink(vista.id).Result;
             //// ese mismo objeto es convertido a string con el serializer de newtonsoft.json
-             string json = JsonConvert.SerializeObject(resultados);
+            string json = JsonConvert.SerializeObject(resultados);
 
               ///escribe el archivo .json justo en la raiz de donde se ejecuta el programa
-              System.IO.File.WriteAllText(consolenames[numeroconsola] + ".json", json);
+             System.IO.File.WriteAllText(consolenames[numeroconsola] + ".json", json);
 
-          /*  var escritor = File.CreateText("dumps/"+consolenames[numeroconsola]+".gr3dump");
-            //  string completitaxd = "";
-            List<string> nombreses = new List<string>();
-            List<string> linkeses = new List<string>();
-            List<string> portadases = new List<string>();
-            List<string> descargases = new List<string>();
+            /*   var escritor = File.CreateText("dumps/"+consolenames[numeroconsola]+".gr3dump");
+               //  string completitaxd = "";
+               List<string> nombreses = new List<string>();
+               List<string> linkeses = new List<string>();
+               List<string> portadases = new List<string>();
+               List<string> descargases = new List<string>();
+
+               escritor.Write(string.Join("****", nombreses) + "+++++" + string.Join("****", linkeses) + "+++++" + string.Join("****", portadases) + "+++++" + string.Join("****", descargases));
+               escritor.Close();
+               Console.Clear();
+             */
+
+            int counterfound = 0;
+         
             foreach (var item in resultados)
             {
-                nombreses.Add(item.nombre);
-                linkeses.Add(item.link);
-                portadases.Add(item.imagen);
-                descargases.Add(item.descargas);
+                counterfound++;
+                
+                    
+              
             }
-            escritor.Write(string.Join("****", nombreses) + "+++++" + string.Join("****", linkeses) + "+++++" + string.Join("****", portadases) + "+++++" + string.Join("****", descargases));
-            escritor.Close();*/
-            Console.Clear();
             Console.WriteLine("informacion extraida correctamente en el archivo " + consolenames[numeroconsola] + ".json" + " que esta en la carpeta raiz de el launcher");
-           
+            Console.WriteLine("Resumen: Roms encontrados:" + counterfound);
+
+
+            Console.ReadKey();
+            Console.WriteLine("Que desea hacer ahora");
+            Console.WriteLine("1-extraer otra vez");
+            Console.WriteLine("2-salir");
+            try {
+                int seleccion = int.Parse(Console.ReadLine());
+                if (seleccion == 1) {
+                    string[] arroz = { "ddd", "fggdfdf", "" };
+                     Main(arroz);
+                }
+            }
+            catch (Exception) {
+
+            }
+
+
 
         }
         //   hace que siempre el certificado sea valido para asi poder usar https
