@@ -8,11 +8,11 @@ You can download the dll that is currently on the dll folder or also download it
 Once you have the dll just import to your proyect
 ### Note
 This library have the following dependeces
-.net core 2.0
-Html agility pack 1.8.7
-For the console app
-TextCopy 1.5.0
-Newtonsoft.Json 11.0.2
+.net core 2.0\n
+Html agility pack 1.8.7\n
+For the console app\n
+TextCopy 1.5.0\n
+Newtonsoft.Json 11.0.2\n
 ## Import of the library
 ```c#
 /////Include the library on the top of the code writting
