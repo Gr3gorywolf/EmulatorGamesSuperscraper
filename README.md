@@ -3,7 +3,9 @@ Emulator.games webscraper+ .netcore extractor application that allows you to ext
 and the core of this app is used on <a href='https://github.com/Gr3gorywolf/NeonRom3r'>NeonRomer</a> the core is superscrapper.cs that makes all the request etc
 the program.cs is the extractor that is also used as a demo to explain how to use the scraping core
 # Usage
-## Include the library and the usage of the classes in the library
+## Include the library to your proyect
+You can download the dll that is currently on the dll folder or also download it clicking <a href="https://github.com/Gr3gorywolf/EmulatorGamesSuperscraper/raw/master/dll/">Here</a>
+## Import of the library
 ```c#
 /////Include the library on the top of the code writting
 using emulatorgamessuperscrapper
@@ -13,7 +15,7 @@ using emulatorgamessuperscrapper
 /*is used to scrap info from the page and have only methods for it */
 emulatorgamessuperscrapper.superscraper
 ///////the modals
-/*is used to modelize the data for better organization*/
+/*is used to modelize the data for better organization and is used for the superscraper methods for better output*/
 emulatorgamessuperscrapper.Models
 
 
