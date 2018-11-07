@@ -11,7 +11,7 @@ This library have the following dependeces
 <br><b>For the dinamic class library</b>
 <br>.net core 2.0
 <br>Html agility pack 1.8.7
-<br><b>For the console app</b>
+<br><b>If you will use the console aplication</b>
 <br>TextCopy 1.5.0
 <br>Newtonsoft.Json 11.0.2
 ## Import of the library
