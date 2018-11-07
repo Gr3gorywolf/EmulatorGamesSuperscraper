@@ -106,7 +106,7 @@ the models are the following
 <br><b>imagen</b>
 <br>contains the link of the image of the rom
 <br><b>descargas</b>
-<br>contains total downloads of the rom
+<br>contains the number of downloads of the rom
 <br><b>linkdescarga</b>
 <br>contains the download link of the console(this is no a direct download link)
 <br>is just for download from the emulator.games webpage 
@@ -126,6 +126,6 @@ the models are the following
 <br><b>imagen</b>
 <br>contains the link of the image of the rom
 <br><b>descargas</b>
-<br>contains total downloads of the rom
+<br>contains the number of downloads of the rom
 <br><b>link</b>
 <br>contains the link of the info page of the rom
