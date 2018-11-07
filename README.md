@@ -5,7 +5,7 @@ the program.cs is the extractor that is also used as a demo to explain how to us
 # Usage
 ### Include the library and the usage of the classes in the library
 ```c#
-/////unclude the library on the top of the code writting
+/////Include the library on the top of the code writting
 using emulatorgamessuperscrapper
 ///////////////////////////////////////////////////////
 ///the library contains 2 primary classes that are
@@ -22,7 +22,7 @@ emulatorgamessuperscrapper.Models
 ```
 
 ### usage of the superscraper class
-```
+```c#
 superscraper scrap=new superscraper();
 /*getrominfo
 is an async task that returns you a data from the specific rom
