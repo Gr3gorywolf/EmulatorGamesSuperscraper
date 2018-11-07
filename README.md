@@ -4,7 +4,15 @@ and the core of this app is used on <a href='https://github.com/Gr3gorywolf/Neon
 the program.cs is the extractor that is also used as a demo to explain how to use the scraping core
 # Usage
 ## Include the library to your proyect
-You can download the dll that is currently on the dll folder or also download it clicking <a href="https://github.com/Gr3gorywolf/EmulatorGamesSuperscraper/raw/master/dll/">Here</a>
+You can download the dll that is currently on the dll folder or also download it clicking <a href="https://github.com/Gr3gorywolf/EmulatorGamesSuperscraper/raw/master/dll/emulatorgamessuperscraper.dll">Here</a>
+Once you have the dll just import to your proyect
+###Note
+This library have the following dependeces
+.net core 2.0
+Html agility pack 1.8.7
+For the console app
+TextCopy 1.5.0
+Newtonsoft.Json 11.0.2
 ## Import of the library
 ```c#
 /////Include the library on the top of the code writting
