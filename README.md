@@ -41,7 +41,8 @@ superscraper scrap = new superscraper();
 ```c#
 /*getrominfo
 is an async task that returns you a data from the specific rom
-as an models.Rominfo and also you need to specify the link of the rom as a parameter
+as an models.Rominfo and also you need to specify the link of the rom as a parameter.
+you can get this link from the result of the usage of getwebdata method
 
 */
 
@@ -94,3 +95,36 @@ the info of that rom
   var link =await  scrap.getdownloadlink(<rom id>).result;
 ```
 
+## The Models
+the models are the following
+### rominfo
+it contains the following properties
+<br><b>id</b>
+<br>contains the unique id of the current rom that can be used for download it
+<br><b>nombre</b>
+<br>contains the name of the current rom
+<br><b>imagen</b>
+<br>contains the link of the image of the rom
+<br><b>descargas</b>
+<br>contains total downloads of the rom
+<br><b>linkdescarga</b>
+<br>contains the download link of the console(this is no a direct download link)
+<br>is just for download from the emulator.games webpage 
+<br><b>console</b>
+<br>contains console name of the current rom
+<br><b>Region</b>
+<br>Display the region of the rom of the console(depending of the region the rom can have different languaje*
+<br><b>votos</b>
+<br>contains the rating of the current rom from the 0 to 5
+<br><b>size</b>
+<br>Contains the file size of the current rom in mb
+
+### romsinfo
+<br><b>nombre</b>
+<br>contains the name of the current rom
+<br><b>imagen</b>
+<br>contains the link of the image of the rom
+<br><b>descargas</b>
+<br>contains total downloads of the rom
+<br><b>link</b>
+<br>contains the link of the info page of the rom
