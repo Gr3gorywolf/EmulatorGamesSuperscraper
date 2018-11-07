@@ -4,7 +4,7 @@ and the core of this app is used on <a href='https://github.com/Gr3gorywolf/Neon
 the program.cs is the extractor that is also used as a demo to explain how to use the scraping core
 # Usage
 ### Include the library and the usage of the classes in the library
-```
+```c#
 /////unclude the library on the top of the code writting
 using emulatorgamessuperscrapper
 ///////////////////////////////////////////////////////
