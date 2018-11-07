@@ -14,7 +14,11 @@ namespace emulatorgamessuperscrapper
 {
     class Program
     {
+
+
+     
         static superscraper escrapeador = new superscraper();
+     
         static int numeroconsola = 0;
         static int paginas = 0;
         static bool hd = false;
@@ -22,12 +26,14 @@ namespace emulatorgamessuperscrapper
         static string[] consolenames = { "gameboy-advance", "super-nintendo", "nintendo-64", "nintendo", "playstation", "gameboy-color", "sega-genesis", "gameboy", "dreamcast" };
      static  Dictionary<int, int> maximos = new Dictionary<int, int>();
         static Dictionary<string, List<Models.emuladores>> diccioemuladores = new Dictionary<string, List<Models.emuladores>>();
-        static void Main(string[] args)
+        static  void Main(string[] args)
         {
             // se le aplica la validacion falsa de certificados a la seguridad utilizada en la libreria system.net
             ServicePointManager.ServerCertificateValidationCallback += new System.Net.Security.RemoteCertificateValidationCallback(ValidateRemoteCertificate);
             // se selecciona la version de el protocolo de seguridad a la versiond e tls 1.2
             System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls12;
+            
+             
 
             Console.WriteLine("Por favor seleccione lo que dese hacer");
             Console.WriteLine("1-Extraer info de rom");

@@ -1,0 +1,602 @@
+[
+    {
+        "nombre": "Pokemon Red-Blue 2-in-1 (Unl)",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/pokemon-red-blue-2-in-1-unl.png",
+        "descargas": "39,162",
+        "link": "https://emulator.games/roms/gameboy/pokemon-red-blue-2-in-1-unl/"
+    },
+    {
+        "nombre": "Pokemon Green",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/pokemon-green.jpg",
+        "descargas": "12,437",
+        "link": "https://emulator.games/roms/gameboy/pokemon-green/"
+    },
+    {
+        "nombre": "Pokemon - Blaue Edition",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/pokemon-blaue-edition.jpg",
+        "descargas": "8,481",
+        "link": "https://emulator.games/roms/gameboy/pokemon-blaue-edition/"
+    },
+    {
+        "nombre": "Pokemon Red",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/pokemon-red.jpg",
+        "descargas": "34,429",
+        "link": "https://emulator.games/roms/gameboy/pokemon-red/"
+    },
+    {
+        "nombre": "Pokemon - Blue Version",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/pokemon-blue-version.jpg",
+        "descargas": "14,689",
+        "link": "https://emulator.games/roms/gameboy/pokemon-blue-version/"
+    },
+    {
+        "nombre": "Super Mario Land (JUE) (V1.1)",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/super-mario-land-jue-v1-1.jpg",
+        "descargas": "33,545",
+        "link": "https://emulator.games/roms/gameboy/super-mario-land-jue-v1-1/"
+    },
+    {
+        "nombre": "Super Mario Land 2 - 6 Golden Coins (V1.2)",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/super-mario-land-2-6-golden-coins-v1-2.jpg",
+        "descargas": "29,811",
+        "link": "https://emulator.games/roms/gameboy/super-mario-land-2-6-golden-coins-v1-2/"
+    },
+    {
+        "nombre": "Super Mario Land 4",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/super-mario-land-4.jpg",
+        "descargas": "13,132",
+        "link": "https://emulator.games/roms/gameboy/super-mario-land-4/"
+    },
+    {
+        "nombre": "Legend Of Zelda, The - Link's Awakening (V1.2)",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/legend-of-zelda-the-link-s-awakening-v1-2.jpg",
+        "descargas": "12,036",
+        "link": "https://emulator.games/roms/gameboy/legend-of-zelda-the-link-s-awakening-v1-2/"
+    },
+    {
+        "nombre": "Donkey Kong Land III",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/donkey-kong-land-iii.jpg",
+        "descargas": "5,448",
+        "link": "https://emulator.games/roms/gameboy/donkey-kong-land-iii/"
+    },
+    {
+        "nombre": "Amazing Spider-Man 3, The - Invasion Of The Spider-Slayers",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/amazing-spider-man-3-the-invasion-of-the-spider-slayers.jpg",
+        "descargas": "4,911",
+        "link": "https://emulator.games/roms/gameboy/amazing-spider-man-3-the-invasion-of-the-spider-slayers/"
+    },
+    {
+        "nombre": "Dragon Ball Z - Gokuu Gekitouden",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/dragon-ball-z-gokuu-gekitouden.jpeg",
+        "descargas": "6,008",
+        "link": "https://emulator.games/roms/gameboy/dragon-ball-z-gokuu-gekitouden/"
+    },
+    {
+        "nombre": "Amazing Spider-Man 2, The",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/amazing-spider-man-2-the.jpg",
+        "descargas": "4,035",
+        "link": "https://emulator.games/roms/gameboy/amazing-spider-man-2-the/"
+    },
+    {
+        "nombre": "Mega Man - Dr. Wily's Revenge",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/mega-man-dr-wily-s-revenge.jpg",
+        "descargas": "7,015",
+        "link": "https://emulator.games/roms/gameboy/mega-man-dr-wily-s-revenge/"
+    },
+    {
+        "nombre": "Donkey Kong Land",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/donkey-kong-land.jpg",
+        "descargas": "6,374",
+        "link": "https://emulator.games/roms/gameboy/donkey-kong-land/"
+    },
+    {
+        "nombre": "Galaga & Galaxian",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/galaga-galaxian.jpg",
+        "descargas": "3,038",
+        "link": "https://emulator.games/roms/gameboy/galaga-galaxian/"
+    },
+    {
+        "nombre": "Mortal Kombat",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/mortal-kombat.jpg",
+        "descargas": "5,728",
+        "link": "https://emulator.games/roms/gameboy/mortal-kombat/"
+    },
+    {
+        "nombre": "Amazing Spider-Man, The",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/amazing-spider-man-the.jpg",
+        "descargas": "3,677",
+        "link": "https://emulator.games/roms/gameboy/amazing-spider-man-the/"
+    },
+    {
+        "nombre": "SD Saint Seiya Paradise",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/sd-saint-seiya-paradise.jpg",
+        "descargas": "2,971",
+        "link": "https://emulator.games/roms/gameboy/sd-saint-seiya-paradise/"
+    },
+    {
+        "nombre": "Felix The Cat",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/felix-the-cat.jpg",
+        "descargas": "2,419",
+        "link": "https://emulator.games/roms/gameboy/felix-the-cat/"
+    },
+    {
+        "nombre": "Doraemon 2",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/doraemon-2.jpg",
+        "descargas": "1,823",
+        "link": "https://emulator.games/roms/gameboy/doraemon-2/"
+    },
+    {
+        "nombre": "Pokemon TRE Team Rocket Edition (Red Hack) (Final)",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/pokemon-tre-team-rocket-edition-red-hack-final.jpg",
+        "descargas": "6,714",
+        "link": "https://emulator.games/roms/gameboy/pokemon-tre-team-rocket-edition-red-hack-final/"
+    },
+    {
+        "nombre": "Donkey Kong Land 2",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/donkey-kong-land-2.jpg",
+        "descargas": "4,504",
+        "link": "https://emulator.games/roms/gameboy/donkey-kong-land-2/"
+    },
+    {
+        "nombre": "Pokemon Brown 2014 (Red Hack)",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/pokemon-brown-2014-red-hack.jpg",
+        "descargas": "4,996",
+        "link": "https://emulator.games/roms/gameboy/pokemon-brown-2014-red-hack/"
+    },
+    {
+        "nombre": "Legend Of Zelda, The - Link's Awakening",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/legend-of-zelda-the-link-s-awakening.jpg",
+        "descargas": "5,156",
+        "link": "https://emulator.games/roms/gameboy/legend-of-zelda-the-link-s-awakening/"
+    },
+    {
+        "nombre": "Yu-Gi-Oh! Duel Monsters",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/yu-gi-oh-duel-monsters.jpg",
+        "descargas": "3,376",
+        "link": "https://emulator.games/roms/gameboy/yu-gi-oh-duel-monsters/"
+    },
+    {
+        "nombre": "Lion King, The",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/lion-king-the.jpg",
+        "descargas": "2,522",
+        "link": "https://emulator.games/roms/gameboy/lion-king-the/"
+    },
+    {
+        "nombre": "Mega Man V",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/mega-man-v.jpg",
+        "descargas": "4,987",
+        "link": "https://emulator.games/roms/gameboy/mega-man-v/"
+    },
+    {
+        "nombre": "Mario & Yoshi",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/mario-yoshi.jpg",
+        "descargas": "6,955",
+        "link": "https://emulator.games/roms/gameboy/mario-yoshi/"
+    },
+    {
+        "nombre": "Adventure Island II",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/adventure-island-ii.jpg",
+        "descargas": "2,558",
+        "link": "https://emulator.games/roms/gameboy/adventure-island-ii/"
+    },
+    {
+        "nombre": "Killer Instinct",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/killer-instinct.jpg",
+        "descargas": "2,440",
+        "link": "https://emulator.games/roms/gameboy/killer-instinct/"
+    },
+    {
+        "nombre": "Kid Icarus - Of Myths And Monsters",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/kid-icarus-of-myths-and-monsters.jpg",
+        "descargas": "3,164",
+        "link": "https://emulator.games/roms/gameboy/kid-icarus-of-myths-and-monsters/"
+    },
+    {
+        "nombre": "Dragon Ball Z - Gokuu Hishouden",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/dragon-ball-z-gokuu-hishouden.jpg",
+        "descargas": "1,848",
+        "link": "https://emulator.games/roms/gameboy/dragon-ball-z-gokuu-hishouden/"
+    },
+    {
+        "nombre": "Donkey Kong (JU) (V1.0)",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/donkey-kong-ju-v1-0.jpg",
+        "descargas": "3,527",
+        "link": "https://emulator.games/roms/gameboy/donkey-kong-ju-v1-0/"
+    },
+    {
+        "nombre": "Adventure Island",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/adventure-island.jpg",
+        "descargas": "2,418",
+        "link": "https://emulator.games/roms/gameboy/adventure-island/"
+    },
+    {
+        "nombre": "Mighty Morphin Power Rangers - The Movie",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/mighty-morphin-power-rangers-the-movie.jpg",
+        "descargas": "2,474",
+        "link": "https://emulator.games/roms/gameboy/mighty-morphin-power-rangers-the-movie/"
+    },
+    {
+        "nombre": "Tamagotchi",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/tamagotchi.jpg",
+        "descargas": "3,079",
+        "link": "https://emulator.games/roms/gameboy/tamagotchi/"
+    },
+    {
+        "nombre": "Monopoly",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/monopoly.jpg",
+        "descargas": "2,532",
+        "link": "https://emulator.games/roms/gameboy/monopoly/"
+    },
+    {
+        "nombre": "Mortal Kombat I & II",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/mortal-kombat-i-ii.jpg",
+        "descargas": "2,545",
+        "link": "https://emulator.games/roms/gameboy/mortal-kombat-i-ii/"
+    },
+    {
+        "nombre": "Tetris (JUE) (V1.1)",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/tetris-jue-v1-1.jpg",
+        "descargas": "8,748",
+        "link": "https://emulator.games/roms/gameboy/tetris-jue-v1-1/"
+    },
+    {
+        "nombre": "Gameboy Camera Gold - Zelda Edition",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/gameboy-camera-gold-zelda-edition.jpg",
+        "descargas": "1,724",
+        "link": "https://emulator.games/roms/gameboy/gameboy-camera-gold-zelda-edition/"
+    },
+    {
+        "nombre": "Ninja Gaiden Shadow",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/ninja-gaiden-shadow.jpg",
+        "descargas": "2,427",
+        "link": "https://emulator.games/roms/gameboy/ninja-gaiden-shadow/"
+    },
+    {
+        "nombre": "Racing Mini 4WD - Let's Go!! MAX",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/racing-mini-4wd-let-s-go-max.jpg",
+        "descargas": "956",
+        "link": "https://emulator.games/roms/gameboy/racing-mini-4wd-let-s-go-max/"
+    },
+    {
+        "nombre": "Street Fighter II",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/street-fighter-ii.jpg",
+        "descargas": "4,362",
+        "link": "https://emulator.games/roms/gameboy/street-fighter-ii/"
+    },
+    {
+        "nombre": "Motocross Maniacs",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/motocross-maniacs.jpg",
+        "descargas": "1,991",
+        "link": "https://emulator.games/roms/gameboy/motocross-maniacs/"
+    },
+    {
+        "nombre": "Castlevania II - Belmont's Revenge",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/castlevania-ii-belmont-s-revenge.jpg",
+        "descargas": "4,881",
+        "link": "https://emulator.games/roms/gameboy/castlevania-ii-belmont-s-revenge/"
+    },
+    {
+        "nombre": "Crayon Shin-Chan",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/crayon-shin-chan.jpg",
+        "descargas": "1,749",
+        "link": "https://emulator.games/roms/gameboy/crayon-shin-chan/"
+    },
+    {
+        "nombre": "Bishoujo Senshi Sailor Moon R",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/bishoujo-senshi-sailor-moon-r.jpg",
+        "descargas": "1,624",
+        "link": "https://emulator.games/roms/gameboy/bishoujo-senshi-sailor-moon-r/"
+    },
+    {
+        "nombre": "Simpsons, The - Escape From Camp Deadly",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/simpsons-the-escape-from-camp-deadly.jpg",
+        "descargas": "3,436",
+        "link": "https://emulator.games/roms/gameboy/simpsons-the-escape-from-camp-deadly/"
+    },
+    {
+        "nombre": "Tumble Pop",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/tumble-pop.jpg",
+        "descargas": "994",
+        "link": "https://emulator.games/roms/gameboy/tumble-pop/"
+    },
+    {
+        "nombre": "Speedy Gonzales",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/speedy-gonzales.jpg",
+        "descargas": "1,353",
+        "link": "https://emulator.games/roms/gameboy/speedy-gonzales/"
+    },
+    {
+        "nombre": "Snow Bros Jr.",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/snow-bros-jr.jpeg",
+        "descargas": "1,439",
+        "link": "https://emulator.games/roms/gameboy/snow-bros-jr/"
+    },
+    {
+        "nombre": "Batman - The Animated Series",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/batman-the-animated-series.jpg",
+        "descargas": "3,266",
+        "link": "https://emulator.games/roms/gameboy/batman-the-animated-series/"
+    },
+    {
+        "nombre": "Teenage Mutant Ninja Turtles - Fall Of The Foot Clan",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/teenage-mutant-ninja-turtles-fall-of-the-foot-clan.jpg",
+        "descargas": "3,123",
+        "link": "https://emulator.games/roms/gameboy/teenage-mutant-ninja-turtles-fall-of-the-foot-clan/"
+    },
+    {
+        "nombre": "Alien 3",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/alien-3.jpg",
+        "descargas": "2,141",
+        "link": "https://emulator.games/roms/gameboy/alien-3/"
+    },
+    {
+        "nombre": "Donkey Kong (JU) (V1.1)",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/donkey-kong-ju-v1-1.jpg",
+        "descargas": "3,133",
+        "link": "https://emulator.games/roms/gameboy/donkey-kong-ju-v1-1/"
+    },
+    {
+        "nombre": "Ironman - X-O Manowar In Heavy Metal",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/ironman-x-o-manowar-in-heavy-metal.jpg",
+        "descargas": "1,361",
+        "link": "https://emulator.games/roms/gameboy/ironman-x-o-manowar-in-heavy-metal/"
+    },
+    {
+        "nombre": "Adventures Of Lolo",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/adventures-of-lolo.jpg",
+        "descargas": "1,245",
+        "link": "https://emulator.games/roms/gameboy/adventures-of-lolo/"
+    },
+    {
+        "nombre": "Duck Tales 2",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/duck-tales-2.jpg",
+        "descargas": "3,029",
+        "link": "https://emulator.games/roms/gameboy/duck-tales-2/"
+    },
+    {
+        "nombre": "Aladdin",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/aladdin.jpg",
+        "descargas": "1,802",
+        "link": "https://emulator.games/roms/gameboy/aladdin/"
+    },
+    {
+        "nombre": "Cadillac II",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/cadillac-ii.jpg",
+        "descargas": "726",
+        "link": "https://emulator.games/roms/gameboy/cadillac-ii/"
+    },
+    {
+        "nombre": "Bomberman GB",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/bomberman-gb.jpg",
+        "descargas": "2,862",
+        "link": "https://emulator.games/roms/gameboy/bomberman-gb/"
+    },
+    {
+        "nombre": "Battletoads In Ragnarok's World",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/battletoads-in-ragnarok-s-world.jpg",
+        "descargas": "1,583",
+        "link": "https://emulator.games/roms/gameboy/battletoads-in-ragnarok-s-world/"
+    },
+    {
+        "nombre": "Mega Man III",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/mega-man-iii.jpg",
+        "descargas": "3,176",
+        "link": "https://emulator.games/roms/gameboy/mega-man-iii/"
+    },
+    {
+        "nombre": "Castlevania - Legends",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/castlevania-legends.jpg",
+        "descargas": "3,870",
+        "link": "https://emulator.games/roms/gameboy/castlevania-legends/"
+    },
+    {
+        "nombre": "Mega Man II",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/mega-man-ii.jpg",
+        "descargas": "3,550",
+        "link": "https://emulator.games/roms/gameboy/mega-man-ii/"
+    },
+    {
+        "nombre": "Batman - Return Of The Joker",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/batman-return-of-the-joker.jpg",
+        "descargas": "1,809",
+        "link": "https://emulator.games/roms/gameboy/batman-return-of-the-joker/"
+    },
+    {
+        "nombre": "Contra - The Alien Wars",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/contra-the-alien-wars.jpg",
+        "descargas": "2,396",
+        "link": "https://emulator.games/roms/gameboy/contra-the-alien-wars/"
+    },
+    {
+        "nombre": "Jurassic Park",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/jurassic-park.jpg",
+        "descargas": "2,883",
+        "link": "https://emulator.games/roms/gameboy/jurassic-park/"
+    },
+    {
+        "nombre": "Double Dragon 2",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/double-dragon-2.jpg",
+        "descargas": "2,042",
+        "link": "https://emulator.games/roms/gameboy/double-dragon-2/"
+    },
+    {
+        "nombre": "Teenage Mutant Ninja Turtles - Back From The Sewers",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/teenage-mutant-ninja-turtles-back-from-the-sewers.jpg",
+        "descargas": "2,378",
+        "link": "https://emulator.games/roms/gameboy/teenage-mutant-ninja-turtles-back-from-the-sewers/"
+    },
+    {
+        "nombre": "Harvest Moon GB",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/harvest-moon-gb.jpg",
+        "descargas": "2,107",
+        "link": "https://emulator.games/roms/gameboy/harvest-moon-gb/"
+    },
+    {
+        "nombre": "Mario's Picross",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/mario-s-picross.jpg",
+        "descargas": "2,044",
+        "link": "https://emulator.games/roms/gameboy/mario-s-picross/"
+    },
+    {
+        "nombre": "Mortal Kombat II",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/mortal-kombat-ii.jpg",
+        "descargas": "1,810",
+        "link": "https://emulator.games/roms/gameboy/mortal-kombat-ii/"
+    },
+    {
+        "nombre": "Pac-Man (Namco)",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/pac-man-namco.jpg",
+        "descargas": "2,433",
+        "link": "https://emulator.games/roms/gameboy/pac-man-namco/"
+    },
+    {
+        "nombre": "Mortal Kombat 3",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/mortal-kombat-3.jpg",
+        "descargas": "2,241",
+        "link": "https://emulator.games/roms/gameboy/mortal-kombat-3/"
+    },
+    {
+        "nombre": "Robin Hood - Prince Of Thieves",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/robin-hood-prince-of-thieves.jpg",
+        "descargas": "931",
+        "link": "https://emulator.games/roms/gameboy/robin-hood-prince-of-thieves/"
+    },
+    {
+        "nombre": "Captain Tsubasa",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/captain-tsubasa.jpg",
+        "descargas": "1,377",
+        "link": "https://emulator.games/roms/gameboy/captain-tsubasa/"
+    },
+    {
+        "nombre": "WWF Superstars 2",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/wwf-superstars-2.jpg",
+        "descargas": "1,392",
+        "link": "https://emulator.games/roms/gameboy/wwf-superstars-2/"
+    },
+    {
+        "nombre": "Hugo",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/hugo.jpg",
+        "descargas": "1,590",
+        "link": "https://emulator.games/roms/gameboy/hugo/"
+    },
+    {
+        "nombre": "Mickey Mouse II",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/mickey-mouse-ii.jpg",
+        "descargas": "1,192",
+        "link": "https://emulator.games/roms/gameboy/mickey-mouse-ii/"
+    },
+    {
+        "nombre": "SD Gundam Gaiden - Lacroan' Heroes",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/sd-gundam-gaiden-lacroan-heroes.jpg",
+        "descargas": "881",
+        "link": "https://emulator.games/roms/gameboy/sd-gundam-gaiden-lacroan-heroes/"
+    },
+    {
+        "nombre": "Teenage Mutant Ninja Turtles III - Radical Rescue",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/teenage-mutant-ninja-turtles-iii-radical-rescue.jpg",
+        "descargas": "1,821",
+        "link": "https://emulator.games/roms/gameboy/teenage-mutant-ninja-turtles-iii-radical-rescue/"
+    },
+    {
+        "nombre": "Gargoyle's Quest - Ghosts'n Goblins",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/gargoyle-s-quest-ghosts-n-goblins.jpg",
+        "descargas": "2,230",
+        "link": "https://emulator.games/roms/gameboy/gargoyle-s-quest-ghosts-n-goblins/"
+    },
+    {
+        "nombre": "Game & Watch Gallery (V1.0)",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/game-watch-gallery-v1-0.jpg",
+        "descargas": "2,338",
+        "link": "https://emulator.games/roms/gameboy/game-watch-gallery-v1-0/"
+    },
+    {
+        "nombre": "Barbie - Game Girl",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/barbie-game-girl.jpg",
+        "descargas": "670",
+        "link": "https://emulator.games/roms/gameboy/barbie-game-girl/"
+    },
+    {
+        "nombre": "Mega Man IV",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/mega-man-iv.jpg",
+        "descargas": "2,490",
+        "link": "https://emulator.games/roms/gameboy/mega-man-iv/"
+    },
+    {
+        "nombre": "Battletoads",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/battletoads.jpg",
+        "descargas": "1,665",
+        "link": "https://emulator.games/roms/gameboy/battletoads/"
+    },
+    {
+        "nombre": "Rockman World 5",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/rockman-world-5.jpg",
+        "descargas": "930",
+        "link": "https://emulator.games/roms/gameboy/rockman-world-5/"
+    },
+    {
+        "nombre": "Spartan X",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/spartan-x.jpg",
+        "descargas": "822",
+        "link": "https://emulator.games/roms/gameboy/spartan-x/"
+    },
+    {
+        "nombre": "Simpsons, The - Krusty's Funhouse",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/simpsons-the-krusty-s-funhouse.jpg",
+        "descargas": "1,835",
+        "link": "https://emulator.games/roms/gameboy/simpsons-the-krusty-s-funhouse/"
+    },
+    {
+        "nombre": "Popeye",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/popeye.jpg",
+        "descargas": "1,534",
+        "link": "https://emulator.games/roms/gameboy/popeye/"
+    },
+    {
+        "nombre": "Superman",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/superman.jpg",
+        "descargas": "1,492",
+        "link": "https://emulator.games/roms/gameboy/superman/"
+    },
+    {
+        "nombre": "Battletoads Double Dragon - The Ultimate Team",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/battletoads-double-dragon-the-ultimate-team.jpg",
+        "descargas": "1,156",
+        "link": "https://emulator.games/roms/gameboy/battletoads-double-dragon-the-ultimate-team/"
+    },
+    {
+        "nombre": "Bomberman GB 2",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/bomberman-gb-2.jpg",
+        "descargas": "1,472",
+        "link": "https://emulator.games/roms/gameboy/bomberman-gb-2/"
+    },
+    {
+        "nombre": "Doraemon",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/doraemon.jpg",
+        "descargas": "1,049",
+        "link": "https://emulator.games/roms/gameboy/doraemon/"
+    },
+    {
+        "nombre": "Castlevania Adventure, The",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/castlevania-adventure-the.jpg",
+        "descargas": "3,792",
+        "link": "https://emulator.games/roms/gameboy/castlevania-adventure-the/"
+    },
+    {
+        "nombre": "Gameboy Camera",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/gameboy-camera.jpg",
+        "descargas": "1,876",
+        "link": "https://emulator.games/roms/gameboy/gameboy-camera/"
+    },
+    {
+        "nombre": "Simpsons, The - Bart Vs The Juggernauts",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/simpsons-the-bart-vs-the-juggernauts.jpg",
+        "descargas": "1,477",
+        "link": "https://emulator.games/roms/gameboy/simpsons-the-bart-vs-the-juggernauts/"
+    },
+    {
+        "nombre": "Dr. Mario (JU) (V1.1)",
+        "imagen": "https://server.emulator.games/images/gameboy/thumbnails/dr-mario-ju-v1-1.jpg",
+        "descargas": "2,379",
+        "link": "https://emulator.games/roms/gameboy/dr-mario-ju-v1-1/"
+    }
+]
