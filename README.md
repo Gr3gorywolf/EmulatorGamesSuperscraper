@@ -24,7 +24,7 @@ emulatorgamessuperscrapper.Models
 ## usage of the superscraper class
 
 ```c#
-superscraper scrap=new superscraper();
+superscraper scrap = new superscraper();
 ```
 ### Get info from a specific rom
 ```c#
@@ -36,9 +36,9 @@ as an models.Rominfo and also you need to specify the link of the rom as a param
 
 scrap.getrominfo(<rom link>)
 // and also is awaitable
-var model= await scrap.getrominfo(<rom link>);
+var model = await scrap.getrominfo(<rom link>);
 //or you can use it synchronously
-var model= scrap.getrominfo(<rom link>).result;
+var model = scrap.getrominfo(<rom link>).result;
 ```
 ### Get info of roms from a specific console
 ```c#
@@ -65,6 +65,6 @@ var Data =  escrapeador.getwebdata("gameboy-advance",2,false);
 ///and also is awaitable
 var Data = await escrapeador.getwebdata("gameboy-advance",2,false);
 //or you can use it synchronously
-var Data =escrapeador.getwebdata("gameboy-advance",2,false).result;
+var Data = escrapeador.getwebdata("gameboy-advance",2,false).result;
 ```
 
