@@ -44,7 +44,8 @@ var model= scrap.getrominfo(<rom link>).result;
 ```c#
 /*getwebdata
 is an async task that returns you a array of data from an specific console
-as a list of  models.romsinfos and also you need to specify the console that could be the follows
+as a list of  models.romsinfos and also you need to 
+specify the console that could be the follows
  "gameboy-advance",
  "super-nintendo",
  "nintendo-64", 
@@ -56,7 +57,8 @@ as a list of  models.romsinfos and also you need to specify the console that cou
  "dreamcast"
  
  And also the number of pages as second parameter(if you choose a lot of pages it will take more time to give the info)
- and as third parameter is an boolean that if is true will get the link of hd portraits but if it is false it will get the low res portraits
+ and as third parameter is an boolean that 
+ if is true will get the link of hd portraits but if it is false it will get the low res portraits
  
 */
 var Data =  escrapeador.getwebdata("gameboy-advance",2,false);
