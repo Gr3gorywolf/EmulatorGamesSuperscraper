@@ -98,7 +98,7 @@ the info of that rom
 ## The Models
 the models are the following
 ### rominfo
-it contains the following properties
+#### this class have the following properties
 <br><b>id</b>
 <br>contains the unique id of the current rom that can be used for download it
 <br><b>nombre</b>
@@ -120,6 +120,7 @@ it contains the following properties
 <br>Contains the file size of the current rom in mb
 
 ### romsinfo
+#### this class have the following properties
 <br><b>nombre</b>
 <br>contains the name of the current rom
 <br><b>imagen</b>
