@@ -69,7 +69,7 @@ var Data = await scrap.getwebdata(<console name>,<Number of pages>,<portraits qu
 //or you can use it synchronously
 var Data = scrap.getwebdata(<console name>,<Number of pages>,<portraits quality>).result;
 ```
-### Get direct download link of a specific rom
+### Get direct download link of a rom once you have extracted their information
 ```c#
 /*getdownloadlink
 is an async task that allow you to get the direct download link as a string 
