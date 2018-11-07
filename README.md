@@ -21,7 +21,7 @@ emulatorgamessuperscrapper.Models
 
 ```
 
-## usage of the superscraper class
+## Usage of the superscraper class
 
 ```c#
 superscraper scrap = new superscraper();
@@ -63,10 +63,23 @@ specify the console that could be the follows
  is false it will get the low res portraits
  
 */
-var Data =  escrapeador.getwebdata(<console name>,<Number of pages>,<portraits quality>);
+var Data =  scrap.getwebdata(<console name>,<Number of pages>,<portraits quality>);
 ///and also is awaitable
-var Data = await escrapeador.getwebdata(<console name>,<Number of pages>,<portraits quality>);
+var Data = await scrap.getwebdata(<console name>,<Number of pages>,<portraits quality>);
 //or you can use it synchronously
-var Data = escrapeador.getwebdata(<console name>,<Number of pages>,<portraits quality>).result;
+var Data = scrap.getwebdata(<console name>,<Number of pages>,<portraits quality>).result;
+```
+### Get direct download link of a specific rom
+```c#
+/*getdownloadlink
+is an async task that allow you to get the direct download link as a string 
+for use this method you only need to have the id of the rom that you can get extracting
+the info of that rom
+*/
+  var link =  scrap.getdownloadlink(<rom id>)
+  //and also is awaitable
+  var link =await  scrap.getdownloadlink(<rom id>);
+  //or you can use it synchronously
+  var link =await  scrap.getdownloadlink(<rom id>).result;
 ```
 
