@@ -21,7 +21,7 @@ emulatorgamessuperscrapper.Models
 
 ```
 
-## Usage of the superscraper class
+## The superscraper class
 
 ```c#
 superscraper scrap = new superscraper();
