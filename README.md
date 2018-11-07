@@ -8,6 +8,7 @@ You can download the dll that is currently on the dll folder or also download it
 Once you have the dll just import to your proyect
 ### Note
 This library have the following dependeces
+<br><b>For the dinamic class library</b>
 <br>.net core 2.0
 <br>Html agility pack 1.8.7
 <br><b>For the console app</b>
