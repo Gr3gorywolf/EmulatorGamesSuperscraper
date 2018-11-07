@@ -3,7 +3,7 @@ Emulator.games webscraper+ .netcore extractor application that allows you to ext
 and the core of this app is used on <a href='https://github.com/Gr3gorywolf/NeonRom3r'>NeonRomer</a> the core is superscrapper.cs that makes all the request etc
 the program.cs is the extractor that is also used as a demo to explain how to use the scraping core
 # Usage
-### Include the library and the usage of the classes in the library
+## Include the library and the usage of the classes in the library
 ```c#
 /////Include the library on the top of the code writting
 using emulatorgamessuperscrapper
@@ -21,19 +21,27 @@ emulatorgamessuperscrapper.Models
 
 ```
 
-### usage of the superscraper class
+## usage of the superscraper class
+
 ```c#
 superscraper scrap=new superscraper();
+```
+### Get info from a specific rom
+```c#
 /*getrominfo
 is an async task that returns you a data from the specific rom
 as an models.Rominfo and also you need to specify the link of the rom as a parameter
 
 */
+
 scrap.getrominfo(<rom link>)
 // and also is awaitable
 var model= await scrap.getrominfo(<rom link>);
 //or you can use it synchronously
 var model= scrap.getrominfo(<rom link>).result;
+```
+### Get info of roms from a specific console
+```c#
 /*getwebdata
 is an async task that returns you a array of data from an specific console
 as a list of  models.romsinfos and also you need to specify the console that could be the follows
