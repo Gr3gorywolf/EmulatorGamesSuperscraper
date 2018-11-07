@@ -56,15 +56,17 @@ specify the console that could be the follows
  "gameboy",
  "dreamcast"
  
- And also the number of pages as second parameter(if you choose a lot of pages it will take more time to give the info)
+ And also the number of pages as second parameter(if you choose a lot of pages
+ it will take more time to give the info)
  and as third parameter is an boolean that 
- if is true will get the link of hd portraits but if it is false it will get the low res portraits
+ if is true will get the link of hd portraits but if it 
+ is false it will get the low res portraits
  
 */
-var Data =  escrapeador.getwebdata("gameboy-advance",2,false);
+var Data =  escrapeador.getwebdata(<console name>,<Number of pages>,<portraits quality>);
 ///and also is awaitable
-var Data = await escrapeador.getwebdata("gameboy-advance",2,false);
+var Data = await escrapeador.getwebdata(<console name>,<Number of pages>,<portraits quality>);
 //or you can use it synchronously
-var Data = escrapeador.getwebdata("gameboy-advance",2,false).result;
+var Data = escrapeador.getwebdata(<console name>,<Number of pages>,<portraits quality>).result;
 ```
 
